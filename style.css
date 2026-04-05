@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f8fb;
+  color: #1a1a2e;
+  scroll-behavior: smooth;
+}
+
+/* VIDEO */
+.video-container {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 119, 182, 0.1);
+  border: 1px solid #bae6fd;
+}
+
+.video-container video {
+  border-radius: 8px;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+}
+
+.video-caption {
+  margin-top: 1rem;
+  color: #0369a1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* FADE ANIMATION */
+.fade-section {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.card {
+  transition: opacity 0.5s ease, transform 0.5s ease !important;
+}
+.card.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* NAV - hidden */
+nav {
+  display: none;
+}
+
+/* HERO - hidden */
+#hero {
+  display: none;
+}
+
+/* Hide all sections except video */
+#about, #skills, #education, #motivation, #contact {
+  display: none;
+}
+
+/* FOOTER - hidden */
+footer {
+  display: none;
+}
+
+/* VIDEO section - centered full page */
+#video {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#video h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0077b6;
+  border-left: 4px solid #0077b6;
+  padding-left: 0.8rem;
+  align-self: flex-start;
+}
