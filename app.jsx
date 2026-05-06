@@ -5,7 +5,7 @@ function Video() {
       <div className="video-container">
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
           <iframe
-            src="https://drive.google.com/file/d/1ptkjdsA7s73ukob-ijQhkPcCxcjhDs0N/preview"
+            src="https://drive.google.com/file/d/1DX8HKBQWBuyS9KLuK3SVERJteNz3royu/preview"
             title="Motivatie video Afriani Sinaga"
             frameBorder="0"
             allow="autoplay"
@@ -14,7 +14,7 @@ function Video() {
           ></iframe>
         </div>
         <p className="video-caption">
-          👋 In deze video vertel ik waarom ik graag Longfunctieanalist wil worden bij Amsterdam UMC.
+          👋 In deze video vertel ik waarom ik graag Anesthesiemedewerker wil worden bij St Jansdal.
         </p>
       </div>
     </section>
